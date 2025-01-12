@@ -1,0 +1,42 @@
+.hackerheader {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+    /* background-color: #1e1e1e; */
+    /* color: #00ff00; */
+  }
+
+  .hackerbody {
+    font-family: 'Ubuntu Mono', monospace; /* Same font as header */
+    text-align: left; /* Left-align text */
+    margin: 10px; /* Add spacing */
+    /* color: #ffffff; Optional: White text */
+    /* background-color: #333333; Optional: Dark background for contrast */
+    padding: 10px; /* Optional: Padding for better spacing */
+  }
+
+  .tab-button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .tab-button.active {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .tab-content {
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    margin: 20px;
+    /* color: #ffffff; */
+    /* background-color: #333333; */
+    padding: 10px;
+  }
